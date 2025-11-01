@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+int marks;
+cout<<"Enter the marks of student:";
+cin>>marks;
+if(marks>=60 & marks<100 ){
+	cout<<"Student is pass";
+}
+else if(marks>100) {
+	cout<<"Enter the correct marks";
+}
+else {
+	cout<<"Student is fail";
+}
+return 0;
+}
