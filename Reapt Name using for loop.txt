@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+for(int n=0;n<6;n++){
+	cout<<"Uzair Adeem"<<endl;
+}
+return 0;
+}
