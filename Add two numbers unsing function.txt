@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+void add(int n1,int n2){
+	int sum=n1+n2;
+	cout<<"The sum of two numbers is:"<<sum;
+}
+int main(){
+// Use functions
+int a,b;
+cout<<"Enter the first number :";
+cin>>a;
+cout<<"Enter the second number :";
+cin>>b;
+add(a,b);
+
+
+
+
+return 0;
+}
