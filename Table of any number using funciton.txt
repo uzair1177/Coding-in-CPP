@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+void table(int a,int b){
+	while(b<11){
+cout<<a<<" * "<<b<<" = "<<a*b<<endl;
+b++;
+	}
+cout<<"This is the table of :"<<a;		
+}
+int main(){
+int n;
+int c=1;
+cout<<"Enter the number";
+cin>>n;
+table(n,c);
+return 0;
+}
