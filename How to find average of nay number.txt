@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+int n1,n2;
+cout<<"Ente the number : ";
+cin>>n1;
+cout<<"Enter the number : ";
+cin>>n2;
+float avg=n1+n2/2.0;
+cout<<"The average of two number is : "<<avg;
+return 0;
+}
