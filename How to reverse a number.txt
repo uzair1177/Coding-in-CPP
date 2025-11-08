@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+void reverse(int n){
+while(n>=1){
+cout<<n<<endl;
+n--;	}
+}
+int main(){
+int n;
+n=10;
+cout<<"Reverse counting"<<endl;
+reverse(n);
+return 0;
+}
