@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+int arr[3];
+cout<<"Enter the three integers: "<<endl;
+cin>>arr[0];
+cin>>arr[1];
+cin>>arr[2];
+cout<<"The values in array are :\n";
+cout<<arr[0]<<endl;
+cout<<arr[1]<<endl;
+cout<<arr[2]<<endl;
+cout<<"Array end";
+return 0;
+}
